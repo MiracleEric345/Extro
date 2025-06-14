@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #111;
+  color: white;
+}
+
+.top-bar .left button {
+  background: #00aaff;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.menu .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu:hover .dropdown {
+  display: block;
+}
+
+.menu .dropdown a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+.menu .dropdown a:hover {
+  background-color: #ddd;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+section img {
+  width: 45%;
+  margin: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  color: white;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.form-container input {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 0.7rem;
+  background: #00aaff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button {
+  margin: 1rem 0.5rem;
+  padding: 0.7rem 1rem;
+  background: #00aaff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
