@@ -1,63 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Extro Investment</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #f5f7fa;
+      font-family: 'Poppins', sans-serif;
+      color: #1f1f1f;
+      margin: 0;
+      padding: 0;
+    }header {
+  background: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.get-started-btn {
+  background: #00aaff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.get-started-btn:hover {
+  transform: scale(1.05);
+  background-color: #0099dd;
+}
+
+.section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1rem;
+  color: #444;
+}
+
+.cta-button {
+  background-color: #00aaff;
+  padding: 0.8rem 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #0077cc;
+  transform: scale(1.05);
+}
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.image-grid img {
+  width: 150px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+  </style>
 </head>
 <body>
-  <header class="top-bar">
-    <div class="left">
-      <button onclick="location.href='signup.html'">Get Started</button>
-      <div class="menu">☰
-        <div class="dropdown">
-          <a href="#plans">Investment Plans</a>
-          <a href="#trending">Trending Coins</a>
-          <a href="signup.html">Sign In</a>
-        </div>
-      </div>
-    </div>
-    <div class="right">
-      <h1>Extro Investment</h1>
-    </div>
-  </header>
-
-  <main>
-    <section class="intro">
-      <h2>Deposit, Invest, Sell, Store your crypto</h2>
-      <h3>Trust worldwide investment platform</h3>
-      <button onclick="location.href='signup.html'">Sign Up</button>
-    </section>
-
-    <section class="phones">
-      <img src="phone1.png" alt="Bitcoin Chart"/>
-      <img src="phone2.png" alt="Crypto Coins"/>
-    </section>
-
-    <section id="plans">
-      <h2>Investment Plans</h2>
-      <p>Coming soon...</p>
-    </section>
-
-    <section id="trending">
-      <h2>Trending Coins</h2>
-      <p>Bitcoin, Ethereum, BNB, USDT...</p>
-    </section>
-
-    <section id="about">
-      <h2>About Us</h2>
-      <p>Extro Investment helps you grow your crypto assets securely with global reach.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: support@extroinvestment.com</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Extro Investment. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+  <header>
+    <div class="logo">Extro Investment</div>
+    <button class="get-started-btn">Get Started</button>
+  </header>  <section class="section">
+    <h2>Deposit, Invest,
